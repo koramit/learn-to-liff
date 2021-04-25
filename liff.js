@@ -22,7 +22,7 @@ window.onload = function() {
             });
     } else {
         myLiffId = defaultLiffId;
-  1655140291-JP3YogDE      initializeLiffOrDie(myLiffId);
+        initializeLiffOrDie(myLiffId);
     }
 };
 
