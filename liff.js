@@ -1,6 +1,6 @@
 window.onload = function() {
-    const useNodeJS = true;   // if you are not using a node server, set this value to false
-    const defaultLiffId = "";   // change the default LIFF value if you are not using a node server
+    const useNodeJS = false;   // if you are not using a node server, set this value to false
+    const defaultLiffId = "1655140291-JP3YogDE";   // change the default LIFF value if you are not using a node server
 
     // DO NOT CHANGE THIS
     let myLiffId = "";
@@ -22,7 +22,7 @@ window.onload = function() {
             });
     } else {
         myLiffId = defaultLiffId;
-        initializeLiffOrDie(myLiffId);
+  1655140291-JP3YogDE      initializeLiffOrDie(myLiffId);
     }
 };
 
